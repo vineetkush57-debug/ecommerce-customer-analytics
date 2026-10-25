@@ -16,6 +16,16 @@ The project includes an exploratory and modeling **Jupyter Notebook**, saved mac
 
 ---
 
+## 📸 Application Screenshots
+
+### 1. Business Overview & Commercial KPIs
+![Business Overview Dashboard](screenshots/dashboard_overview.png)
+
+### 2. Product Sales & Geographic Telemetry
+![Product Sales & Geography Breakdown](screenshots/product_sales_and_geography.png)
+
+---
+
 ## 🚀 Key Features
 
 * **Interactive Commercial Telemetry (Page 1):** Real-time calculation of total revenue, order count, active customers, unique products, and Average Order Value (AOV) with monthly trends and country breakdowns.
@@ -58,6 +68,10 @@ ecommerce-customer-analytics/
 │
 ├── notebooks/
 │   └── customer_analysis.ipynb          # Step-by-step Jupyter Notebook
+│
+├── screenshots/
+│   ├── dashboard_overview.png           # KPI cards & monthly revenue trend
+│   └── product_sales_and_geography.png  # Top products & country revenue
 │
 ├── app.py                               # Streamlit Web Application
 ├── requirements.txt                     # Project Python dependencies
