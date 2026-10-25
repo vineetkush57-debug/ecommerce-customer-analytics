@@ -86,13 +86,10 @@ ecommerce-customer-analytics/
 
 ## 💻 Installation & Setup
 
-### 1. Clone or Open Project Directory
 
-```powershell
-cd C:\Users\hp\.gemini\antigravity\scratch\ecommerce-customer-analytics
 ```
 
-### 2. Create Virtual Environment
+### 1. Create Virtual Environment
 
 Create an isolated Python virtual environment named `venv`:
 
@@ -100,7 +97,7 @@ Create an isolated Python virtual environment named `venv`:
 python -m venv venv
 ```
 
-### 3. Activate Virtual Environment (Windows PowerShell)
+### 2. Activate Virtual Environment (Windows PowerShell)
 
 ```powershell
 .\venv\Scripts\Activate.ps1
@@ -108,7 +105,7 @@ python -m venv venv
 
 *(If script execution is disabled on your system, enable it for the current session with: `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process`)*
 
-### 4. Install Dependencies
+### 3. Install Dependencies
 
 ```powershell
 python -m pip install --upgrade pip
